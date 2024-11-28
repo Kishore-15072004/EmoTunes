@@ -61,34 +61,6 @@ EmoTunes is a web application that integrates emotion detection, weather classif
 1. **Push your repository** to GitHub.
 2. **Enable GitHub Pages** in the repository settings.
 
-### Using Heroku
-1. **Login to Heroku**:
-   ```sh
-   heroku login
-   ```
-2. **Create a new Heroku app**:
-   ```sh
-   heroku create
-   ```
-3. **Add a `Procfile`**:
-   ```sh
-   echo "web: python app.py" > Procfile
-   ```
-4. **Add dependencies to `requirements.txt`**:
-   ```sh
-   pip freeze > requirements.txt
-   ```
-5. **Push your code to Heroku**:
-   ```sh
-   git add .
-   git commit -m "Prepare for Heroku deployment"
-   git push heroku main
-   ```
-6. **Open your app**:
-   ```sh
-   heroku open
-   ```
-
 ## Acknowledgements
 - Thanks to [Font Awesome](https://fontawesome.com/) for icons.
 - Inspired by the power of integrating technology with everyday experiences.
