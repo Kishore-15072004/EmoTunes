@@ -1,4 +1,3 @@
-```markdown
 # EmoTunes
 
 ## Tune into Your Emotions
