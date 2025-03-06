@@ -1,1 +1,35 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmoTunes</title>
+    <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1 class="title mb-2"><i class="fas fa-music"></i> EmoTunes</h1>
+        <h2 class="subtitle mb-4">Tune into Your Emotions</h2>
+        <div class="card mx-auto" id="contentCard">
+            <video class="card-img-top" autoplay="true" id="videoElement"></video>
+            <div class="card-body">
+                <p id="combinedEmotionResult" class="card-text">Emotion: </p>
+                <p id="weatherResult" class="card-text">Weather: </p>
+                <button class="btn btn-primary" id="recommendButton" onclick="startEmotionDetection()">Get Recommendation</button>
+                <div class="spinner-border text-primary" role="status" id="loadingSpinner" style="display:none;">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        </div>
+        <div id="playlists" class="mt-4"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
