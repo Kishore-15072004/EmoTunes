@@ -1,0 +1,26 @@
+tensorflow
+keras
+pandas
+numpy
+tqdm
+opencv-contrib-python
+scikit-learn
+
+suggested directory and file structure
+
+EmoTunes/
+├── static/
+│   ├── css/
+│   │   └── style.css  # Your CSS styles
+│   ├── js/
+│   │   ├── script.js  # Main script for handling interactions
+│   │   └── visualizer.js  # Script for music visualizer (if any)
+│   └── images/
+│       └── background.jpg  # Background image for styling (if any)
+├── templates/
+│   └── index.html  # HTML template for your web interface
+├── app.py  # Main Flask application
+├── emotion_detection.py  # Emotion detection script
+├── weather_detection.py  # Weather detection script
+├── music_recommendation.py  # Music recommendation logic
+└── main.py  # Main script for integration
