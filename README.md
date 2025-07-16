@@ -158,7 +158,10 @@ This project is for educational purposes.
 
 ## Authors
 
-- [Tadepalli Kishore, Yelthi Srinithya Reddy, Vanja Abhilash Reddy, T Narendra]
+- Kishore Tadepalli — [@Kishore-15072004](https://github.com/Kishore-15072004)
+- Srinithya Reddy Yelti — [Nithya-Reddy01](https://github.com/Nithya-Reddy01)
+- Vanja Abhilash Reddy
+- T Narendra
 
 ---
 
